@@ -3,14 +3,14 @@
 ans = 'りんご' # 文字列は単引用符('')、もしくは二重引用符("")で囲むこと
 puts ans
 
-# (2)classメソッドを用いて、ansが文字列(String)であることを確認してください.
+# (2)ansに対してclassメソッドを用いて、ansが文字列(String)であることを確認してください.
 puts ans.class #変数ansに対してclassメソッドを用いる
 
 # (3)変数ansに数値123を入れてputsで出力してください.
 ans = 123 # 数値は引用符で囲まない
 puts ans
 
-# (4)変数classメソッドを用いて、ansが数値(Integer)であることを確認してください.
+# (4)ansに対してclassメソッドを用いて、ansが数値(Integer)であることを確認してください.
 puts ans.class #変数ansに対してclassメソッドを用いる
 
 # (5)ansに対してto_sメソッドを用いた後、ansが文字列(String)であることを確認してください.
